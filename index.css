@@ -1798,7 +1798,9 @@ td h2{
     .rightchild span{
         display: inline-block;
     }
-
+    .scrollimg{
+        height: 145px;
+    }
     .scroll {
         width: 80%;
         height: 100%;
@@ -1808,11 +1810,11 @@ td h2{
         align-items: center;
         overflow: hidden;
         gap: 80px;
-        padding: 0px 0px 0px 44px;
+        padding: 0px 0px 0px 50px;
     }
     .simg{
-        width: 130px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
     }
     .powerbox{
         background-position: -96px 90px,-1px 460px;
