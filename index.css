@@ -1421,7 +1421,7 @@ li{
         right: -1px;
         overflow: hidden;
         border: 1px solid rgb(210, 206, 206);
-        z-index: -1;rgb(123, 123, 123)
+        z-index: -1;
         transform: translateX(900px);
         transition: all 1s;
     }
@@ -1435,29 +1435,28 @@ li{
         height: 60px;
         position: absolute;
         left: -1000%;
-        /* left: 33%; */
-        top: 30px;
+        top: 62px;
         z-index: -1;
         transition-duration: 0.50s;
         animation: none;
     }
     .Home:hover ~ .bullet-box .bullet{
-        left: 33%;
+        left: 30%;
     }
     .about:hover ~ .bullet-box .bullet {
-        top: 144px;
-        left: 33%;
+        top: 153px;
+        left: 30%;
     }
 
     .Categories:hover ~ .bullet-box .bullet {
-        top: 246px;
-        left: 33%;
+        top: 245px;
+        left: 30%;
     }
 
     .Contact:hover ~ .bullet-box .bullet {
         right: -200px;
-        top: 350px;
-        left: 33%;
+        top: 332px;
+        left: 30%;
 
     }
     .nav3{
@@ -1663,23 +1662,23 @@ td h2{
         /* animation: a1 1s ; */
     }
     .Home:hover ~ .bullet-box .bullet{
-        left: 29%;
+        left: 25%;
     }
     .about:hover ~ .bullet-box .bullet {
-        top: 197px;
-        left: 29%;
+        top: 148px;
+        left: 25%;
     }
 
     .Categories:hover ~ .bullet-box .bullet {
         right: -200px;
-        top: 337px;
-        left: 29%;
+        top: 248px;
+        left: 25%;
     }
 
     .Contact:hover ~ .bullet-box .bullet {
         right: -200px;
-        top: 475px;
-        left: 29%;
+        top: 338px;
+        left: 25%;
 
     }
 
